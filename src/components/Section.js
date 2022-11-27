@@ -9,6 +9,7 @@ export const Section = (props) => {
                 <p>{props.description}</p>
             </ItemText>
             <Buttons>
+              
                 <ButtonGroup>
                     <LeftButton>
                         {props.leftBtnText}
@@ -79,7 +80,7 @@ const RightButton = styled(LeftButton)`
 const DownArrow = styled.img`
 
     height: 40px;
-    overflow-x: hidden;
+    overflow: hidden;
     animation: animateDown infinite 1.5s;
 `
 
